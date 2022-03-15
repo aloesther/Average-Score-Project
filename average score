@@ -1,0 +1,15 @@
+percentage = input("Enter your percentage: ")
+ClassAverage = input("Enter the class average: ")
+
+ConstPercentage = 60
+percentage = int(percentage)
+ClassAverage = int(ClassAverage)
+
+if percentage < ConstPercentage:
+    print ("You failed!")
+    exit()
+
+if (ClassAverage - percentage) > 5:
+    print ("You failed!")
+else:
+    print ("You passed!")
